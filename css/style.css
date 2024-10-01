@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: rgb(72, 2, 72);
+    background-image: url("img/back.png");
+}
+
+.input-box {
+    background: none;
+    width: 80%;
+    max-width: 400px;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin: 300px auto;
+    display: flex;
+    align-items: center;
+    border-bottom: 2px solid black;
+}
+
+.input-box input {
+    width: 100%;
+    padding: 5px;
+    border: 0;
+    outline: 0;
+    font-size: 20px;
+    color: white;
+    background: none;
+    margin-right:10px;
+}
+
+.input-box img {
+    width: 30px;
+    cursor: pointer;
+    color: aliceblue;
+}
